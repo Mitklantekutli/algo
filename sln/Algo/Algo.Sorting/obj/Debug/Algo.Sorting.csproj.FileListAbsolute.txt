@@ -1,1 +1,6 @@
 D:\projects\algo\sln\Algo\Algo.Sorting\bin\Debug\Algo.Sorting.exe.config
+D:\projects\algo\sln\Algo\Algo.Sorting\bin\Debug\Algo.Sorting.exe
+D:\projects\algo\sln\Algo\Algo.Sorting\bin\Debug\Algo.Sorting.pdb
+D:\projects\algo\sln\Algo\Algo.Sorting\obj\Debug\Algo.Sorting.csprojResolveAssemblyReference.cache
+D:\projects\algo\sln\Algo\Algo.Sorting\obj\Debug\Algo.Sorting.exe
+D:\projects\algo\sln\Algo\Algo.Sorting\obj\Debug\Algo.Sorting.pdb
