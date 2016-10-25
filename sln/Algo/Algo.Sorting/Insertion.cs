@@ -6,37 +6,22 @@
         {
             var stats = new SortingStats();
 
-            //Outer
-            for (int i = 0; i < a.Length-1; i++)
+            //outer - разделительный маркер
+            for (var outer = 1; outer < a.Length; outer++)
             {
-                //Copy temp
-                var tempIndex = i + 1;
                 stats.Copies++;
-                var t = a[tempIndex];
-                
-
-                for (int j = i; j >= 0; j--)
+                var t = a[outer];//Помеченный элемент
+                var inner = outer;//Начинаем копировать вправо с индекса помеченного элемента
+                while (inner>0&&a[inner-1]>=t)//Сдвигаем вправо пока не найдем элемент который меньше помеченного
                 {
                     stats.Compares++;
-                    if (a[j] > t)
-                    {
-                        a[j + 1] = a[j];
-                        stats.Copies++;
-                        if (j == 0)
-                        {
-                            a[0] = t;
-                            stats.Copies++;
-                        }
-                    }
-                    else
-                    {
-                        a[j + 1] = t;
-                        stats.Copies++;
-                        break;
-                    }
+                    stats.Copies++;
+                    a[inner] = a[inner - 1];//Копируем вправо
+                    inner--;//Сдвигаем индекс влево
                 }
+                stats.Copies++;
+                a[inner] = t;//Выставляем значение помеченного элемента в индекс последнего скопированного элемента
             }
-
 
             return stats.Stop();
         }

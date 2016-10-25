@@ -6,19 +6,17 @@
         {
             var stats = new SortingStats();
 
-            //Outer
-            for (int i = 0; i < a.Length; i++)
+            for (var currentIndex = 0; currentIndex < a.Length-1; currentIndex++)//Проходимся до последнего элемента
             {
-                var minIndex = i;
-                //Inner
-                for (int j = i; j < a.Length; j++)
+                var minIndex = currentIndex;//Считаем текущий элемент минимальным и берем его индекс
+                for (var j = currentIndex; j < a.Length; j++)//Ищем минимальный элемент, начиная с текущего
                 {
-                    if (a[minIndex] > a[j])
-                        minIndex = j;
                     stats.Compares++;
+                    if (a[minIndex] > a[j])//Нашли новый минимум
+                        minIndex = j;
                 }
-                //Swap current with min    
-                a.Swap(i, minIndex);
+            
+                a.Swap(currentIndex, minIndex);//Меняем местами текущий элемент с минимальным
                 stats.Copies += 3;
             }
             return stats.Stop();

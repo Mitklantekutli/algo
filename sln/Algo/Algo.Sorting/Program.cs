@@ -7,12 +7,12 @@ namespace Algo.Sorting
     {
         static void Main()
         {
-            var a = Generate(20000);
+            var a = new[] {1,3,2};// Generate(20000);
             Console.WriteLine("Total elements " + a.Length);
             Console.WriteLine();
-            PrintSorting(new BubbleSorting(), a.ToArray(), "Bubble");
+            //PrintSorting(new BubbleSorting(), a.ToArray(), "Bubble");
             PrintSorting(new Selection(), a.ToArray(), "Selecting");
-            PrintSorting(new Insertion(), a.ToArray(), "Insertion");
+            //PrintSorting(new Insertion(), a.ToArray(), "Insertion");
         }
 
         private static void PrintSorting(ISorting sorting, int[] a, string name)
@@ -31,11 +31,6 @@ namespace Algo.Sorting
             Console.WriteLine("Compares: " + stats.Compares);
             Console.WriteLine("Copies: " + stats.Copies);
             Console.WriteLine("Time: " + stats.Timespan.TotalMilliseconds + " ms");
-        }
-
-        private static ISorting GetSorting()
-        {
-            return new Insertion();
         }
 
         public static int[] Generate(int count, int max = 100)
