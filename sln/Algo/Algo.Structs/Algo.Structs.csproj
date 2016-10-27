@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PriorityQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueueX.cs" />
+    <Compile Include="StackX.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
