@@ -1,0 +1,5 @@
+D:\projects\algo\sln\Algo\Algo.Structs\bin\Debug\Algo.Structs.exe.config
+D:\projects\algo\sln\Algo\Algo.Structs\bin\Debug\Algo.Structs.exe
+D:\projects\algo\sln\Algo\Algo.Structs\bin\Debug\Algo.Structs.pdb
+D:\projects\algo\sln\Algo\Algo.Structs\obj\Debug\Algo.Structs.exe
+D:\projects\algo\sln\Algo\Algo.Structs\obj\Debug\Algo.Structs.pdb
