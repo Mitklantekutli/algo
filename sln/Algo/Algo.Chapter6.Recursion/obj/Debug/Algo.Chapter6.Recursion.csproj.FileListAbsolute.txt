@@ -1,0 +1,6 @@
+C:\Users\shalin.v\Documents\algo\sln\Algo\Algo.Chapter6.Recursion\bin\Debug\Algo.Chapter6.Recursion.exe.config
+C:\Users\shalin.v\Documents\algo\sln\Algo\Algo.Chapter6.Recursion\bin\Debug\Algo.Chapter6.Recursion.exe
+C:\Users\shalin.v\Documents\algo\sln\Algo\Algo.Chapter6.Recursion\bin\Debug\Algo.Chapter6.Recursion.pdb
+C:\Users\shalin.v\Documents\algo\sln\Algo\Algo.Chapter6.Recursion\obj\Debug\Algo.Chapter6.Recursion.exe
+C:\Users\shalin.v\Documents\algo\sln\Algo\Algo.Chapter6.Recursion\obj\Debug\Algo.Chapter6.Recursion.pdb
+C:\Users\shalin.v\Documents\algo\sln\Algo\Algo.Chapter6.Recursion\obj\Debug\Algo.Chapter6.Recursion.csprojResolveAssemblyReference.cache
